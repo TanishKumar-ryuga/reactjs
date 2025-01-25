@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.App-link1 {
+  color: #81e1ff;
+  margin-bottom:30px;
+}
+.App-link3 {
+  color:white;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.booststrap {
+  background-color: #5cbdd8;
+  margin-top:30px;
+  border-radius:15px;
+  border:none;
+  outline:none;
+  color:rgba(253, 253, 253, 0.781);
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s
+}
+.custom {
+  border: 0;
+  height: 1px;
+  background-color: red; /* Change to desired color */
+  margin: 20px 0; /* Adjust spacing as needed */
+}
+.table thead th {
+  background-color: #333; /* Darker shade for header */
+  color: white; /* White text for contrast */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #292929;
+  border-radius:15px; /* Darker shade for odd rows */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #ffeaea;
+   /* Slightly lighter shade for even rows */
+}
+
+.table td, .table th {
+  color: black; /* White text for readability */
+}
+.h2 {
+  text-decoration:underline 1px;
+  color:white;
+  font-family: 'MyFont', sans-serif;
+}
+.h3 {
+  text-decoration:underline 1px;
+  color:black;
+  font-family: 'MyFont', sans-serif;
+}
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
